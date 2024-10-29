@@ -1,0 +1,15 @@
+<?php
+
+$host = "localhost";
+$username = "root";
+$password = "";
+$datbase = "phpecom";
+
+// Creating database connection
+$con = mysqli_connect($host,$username,$password,$datbase);
+
+// Checking database connection
+if (!$con) {
+    die("Connection Failed ".mysqli_connect_error());    
+}
+?>

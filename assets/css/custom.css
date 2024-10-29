@@ -1,0 +1,21 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.underline{
+    height: 4px;
+    width: 85px;
+    background-color: #E4E0E1;
+    border-radius: 10px;
+}
+.underline2{
+    height: 4px;
+    width: 105px;
+    background-color: #E4E0E1;
+    border-radius: 10px;
+}
+.bg-f2f2{
+    background-color: #f2f2f2;
+}
